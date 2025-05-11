@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <style>
+      @keyframes bounce {
+        0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+        40% { transform: translateY(-20px); }
+        60% { transform: translateY(-10px); }
+      }
+
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: pink; /* Background color */
+        background-image: url('https://assets.onecompiler.app/43gug6ywg/43hdz7dgu/Cartoon_Tree_PNG_Clip_Art-1092.png');
+        background-size: contain; /* or cover */
+        background-repeat: no-repeat;
+        background-position: center; /* Adjust as needed */
+      }
+
+      p {
+        font-size: 100px;
+        color: red; /* Text color set to red */
+        animation: bounce 2s infinite;
+      }
+    </style>
+  </head>
+  <body>
+    <p>I love you</p>
+  </body>
+</html>
